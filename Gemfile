@@ -12,6 +12,10 @@ gem 'devise'
 gem 'cancancan'
 gem 'rolify'
 gem 'haml'
+gem 'simple_form'
+
+gem 'ice_cube'
+gem 'schedulable'
 
 group :development, :test do
   gem 'byebug'
