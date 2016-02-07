@@ -5,5 +5,11 @@
   <%= @event.name %>
 </p>
 
+<p>
+  <strong>Schedule:</strong>
+  <%# Prints out a human-friendly description of the schedule, such as %> 
+  <%= @event.schedule %>
+</p>
+
 <%= link_to 'Edit', edit_event_path(@event) %> |
 <%= link_to 'Back', events_path %>
